@@ -3,7 +3,10 @@ body{
 		padding-top:30px;
 		padding-bottom:15px;
 		color:#EEEEEE;
-		background: url(flat_background.jpg) no-repeat center center fixed; 
+		background: url(flat_background.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	        background-position: center; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

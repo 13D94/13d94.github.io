@@ -1,0 +1,26 @@
+body{
+		font-family: 'Mallanna', sans-serif;
+		padding-top:30px;
+		padding-bottom:15px;
+		color:#EEEEEE;
+		background: url(flat_background.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		
+	}
+.head-line{
+		border-color:#EEEEEE;
+	}
+.CodeMirror{
+		border: 1px solid black;
+		border-radius: 5px;
+		font-size:13px
+		-webkit-box-shadow: 0px 0px 70px 9px rgba(0,0,0,0.48);
+		-moz-box-shadow: 0px 0px 70px 9px rgba(0,0,0,0.48);
+		box-shadow: 0px 0px 70px 9px rgba(0,0,0,0.48);
+	}
+a{
+		color:#EEEEEE;
+	}

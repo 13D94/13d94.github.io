@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="My name is Pratheek Hegde, I'm a Full stack Web Developer. I Love playing with PHP, Javascript and my computer.">
-	<meta name=”keywords” content="php, javascript, pTk" />
-	<title>pTk (Pratheek Hegde)</title>
-	<!-- jQuery -->
-	<script type="text/javascript" src ="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<link rel="stylesheet" href="fakeLoader.css">
-	<script src="fakeLoader.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $(".fakeloader").fakeLoader({
-                    timeToHide:1000,
-                    bgColor:"#0a0639",
-                    spinner:"spinner1"
-                });
-            });
-        </script>
-</head>
-<body>
-	<div class="fakeloader"></div>
-	<div class="container">
-		<div class="row" style="margin-top:15px">
-			<div class="col-md-8 col-md-offset-2">
-			<textarea id="code" name="code">
+<!doctype html><html class="no-js" lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="My name is Pratheek Hegde, I'm a Full stack Web Developer. I Love playing with PHP, Javascript and my computer."><meta name="”keywords”" content="php, javascript, AngularJS, pTk"><link rel="apple-touch-icon" href="apple-touch-icon.png"><!-- Place favicon.ico in the root directory --><!-- Google Fonts --><link href="https://fonts.googleapis.com/css?family=Mallanna" rel="stylesheet" type="text/css"><link rel="stylesheet" href="styles/vendor.css"><link rel="stylesheet" href="styles/main.css"><script src="scripts/vendor/modernizr.js"></script></head><body><!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--><body><div class="container"><div class="row" style="margin-top:15px"><div class="col-md-8 col-md-offset-2"><textarea id="code" name="code">
 // Load the pTk module
 var pTk = require('pTk');
 // Configure pTk instance to dump details.
@@ -40,76 +13,9 @@ var me = pTk.createInstance(function (data) {
 // Listen on port 609, Dump all the stuffs
 me.dump(609);
 // Put a message on the terminal
-console.log("Hello World !");</textarea>
-			</div>
-		</div>
-		<div class="row">
-			<div id="typethis">
-				<p>I'M <span style="color:#F9BF3B;">P</span> <span style="color:#65C6BB;">T</span> <span style="color:#2ECC71;">K</span> ^500</p>
-				<p>I'M ALSO <span style="color:#F9BF3B;">P</span>RA<span style="color:#65C6BB;">T</span>HEE<span style="color:#2ECC71;">K</span> HEGDE.^500</p>
-				<p>This is my page.</p>
-			</div>
-			<div class="col-md-12" style="padding:0px">
-				<h2 class="text-center"><span id="typehere"></span></h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<p align="justify" style="color:BDC3C7;font-size:1.2em;">
-				I was born <span class="age"></span> and I started <i class="fa fa-code" style="color:#6C7A89;"></i> the web <span class="coding"></span>.
-				I'm a Full Stack Developer and an Open Source Contributor. I <i class="fa fa-heart-o" style="color:#e61727"></i> working with Java, JS and PHP.
-				I freelance when i'm bored and i'm  a foodaholic.
-				Have an idea in your mind ? Drop a <i class="fa fa-envelope-o" style="color:#D2527F;"></i> to my Inbox. Let's do something awesome for the <i class="fa fa-globe" style="color:#22313F;"></i> together.
-				</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4 text-center animated fadeInUp">
-			<hr class="main-title">
-			<a href="http://instagram.com/pratheek_hegde" target="_blank"><i class="fa fa-instagram fa-2x enlarge instagram"></i></a>&nbsp;&nbsp;<a href="http://facebook.com/pratheek.hegde" target="_blank"><i class="fa fa-facebook fa-2x enlarge facebook"></i></a>&nbsp;&nbsp;<a href="http://plus.google.com/+PratheekHegde" target="_blank"><i class="fa fa-google-plus fa-2x enlarge gplus"></i></a>&nbsp;&nbsp;<a href="http://github.com/pratheekhegde" target="_blank"><i class="fa fa-github fa-2x enlarge github"></i></a>&nbsp;&nbsp;<a href="https://twitter.com/PratheekHegde" class="twitter-follow-button" data-show-count="false">Follow @pTk</a>
-			</div>
-		</div>
-	</div>
-	<script src="typed.min.js"></script>
-	<!-- Bootstrap -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<!-- Moment.js -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.js"></script>
-	<!-- Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Mallanna' rel='stylesheet' type='text/css'>
-	<!-- jQuery Transit -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
-	<!-- Animate.css -->
-	<link href="http://cdn.bootcss.com/animate.css/3.4.0/animate.min.css" rel="stylesheet">
-	<!-- CodeMirror -->
-	<script src="codemirror-5.6/lib/codemirror.js"></script>
-	<link rel="stylesheet" href="codemirror-5.6/lib/codemirror.css">
-	<script src="codemirror-5.6/mode/javascript/javascript.js"></script>
-	<link rel="stylesheet" href="codemirror-5.6/theme/monokai.css">
-	<!-- pTk JS and CSS -->
-	<script type="text/javascript" src="pTk.js"></script>
-	<link rel="stylesheet" href="pTk.css">
-	<script>
-	$(function(){
-		$("#typehere").typed({
-		        stringsElement: $('#typethis'),
-		        typeSpeed: 30,
-		        startDelay: 1000,
-		        loop: true
-		});
-	});
-	</script>
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	ga('create', 'UA-67738250-1', 'auto');
-	ga('send', 'pageview');
-	</script>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</body>
-</html>
+console.log("Hello World !");</textarea></div></div><div class="row"><div class="col-md-12" style="padding:0px"><h2 class="text-center"><span id="typehere"></span><div class="typethis"><p>I'M <span style="color:#F9BF3B">P</span> <span style="color:#65C6BB">T</span> <span style="color:#2ECC71">K</span> ^500</p><p>I'M ALSO <span style="color:#F9BF3B">P</span>RA<span style="color:#65C6BB">T</span>HEE<span style="color:#2ECC71">K</span> HEGDE.^500</p><p>This is my page.</p></div></h2></div></div><div class="row"><div class="col-md-8 col-md-offset-2"><p align="justify" style="color:BDC3C7;font-size:1.2em">I was born <span class="age"></span> and I started <i class="fa fa-code" style="color:#6C7A89"></i> the web <span class="coding"></span>. I'm a Full Stack Developer and an Open Source Contributor. I <i class="fa fa-heart-o" style="color:#e61727"></i> working with Java, JS and PHP. I freelance when i'm bored and i'm a foodaholic. Have an idea in your mind ? Drop a <i class="fa fa-envelope-o" style="color:#D2527F"></i> to my Inbox. Let's do something awesome for the <i class="fa fa-globe" style="color:#22313F"></i> together.</p></div></div><div class="row"><div class="col-md-4 col-md-offset-4 text-center animated fadeInUp"><hr class="main-title"><a href="http://instagram.com/pratheek_hegde" target="_blank"><i class="fa fa-instagram fa-2x enlarge instagram"></i></a>&nbsp;&nbsp;<a href="http://facebook.com/pratheek.hegde" target="_blank"><i class="fa fa-facebook fa-2x enlarge facebook"></i></a>&nbsp;&nbsp;<a href="http://plus.google.com/+PratheekHegde" target="_blank"><i class="fa fa-google-plus fa-2x enlarge gplus"></i></a>&nbsp;&nbsp;<a href="http://github.com/pratheekhegde" target="_blank"><i class="fa fa-github fa-2x enlarge github"></i></a>&nbsp;&nbsp;<a href="https://twitter.com/PratheekHegde" class="twitter-follow-button" data-show-count="false">Follow @pTk</a></div></div></div><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  	ga('create', 'UA-67738250-1', 'auto');
+  	ga('send', 'pageview');</script><!-- Twitter --><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><script src="scripts/vendor.js"></script><script src="scripts/plugins.js"></script><script src="scripts/main.js"></script></body></body></html>

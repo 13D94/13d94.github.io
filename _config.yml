@@ -1,0 +1,10 @@
+# Site settings
+title: Pratheek Hegde
+tag_text: Pratheek Hegde
+description: I am Pratheek Hegde.
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed

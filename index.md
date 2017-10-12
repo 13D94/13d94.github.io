@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<b>Infrastructure & Frontend Developer</b> @ [Cyware Labs](https://cyware.com)
+
 A <b>self-taught</b>, Love <b>Building</b> and <b>Breaking</b> things.
 
 Currently diving deep into Web, Mobile Technologies and DevOps.

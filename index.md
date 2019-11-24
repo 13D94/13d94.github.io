@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<b>Frontend Developer</b> @ [GALE](https://gale.agency/)
+<b>Senior Software Enginner </b> @ [Make My Trip](https://www.makemytrip.com/)
 
 A <b>self-taught</b>, Love <b>Building</b> and <b>Breaking</b> things.
 
